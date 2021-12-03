@@ -1,0 +1,20 @@
+{
+    "name": "DTF HD",
+    "version": "0.1",
+    "permissions": [
+      "https://dtf.ru/*"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["https://dtf.ru/*"],
+        "js": ["jquery-3.6.0.min.js", "hd.js"],
+        "run_at": "document_end"
+      }
+    ],
+    "icons": { 
+      "48": "icons/icon48.png",
+      "96": "icons/icon96.png",
+     "128": "icons/icon128.png"
+    },
+    "manifest_version": 2
+  }
