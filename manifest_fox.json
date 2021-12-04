@@ -14,8 +14,13 @@
     ],
     "icons": { 
       "48": "icons/icon48.png",
-      "96": "icons/icon96.png",
-     "128": "icons/icon128.png"
+      "96": "icons/icon96.png"
     },
-    "manifest_version": 2
+    "manifest_version": 2,
+    "browser_specific_settings": {
+      "gecko": {
+        "id": "umnikone@yandex.ru",
+        "strict_min_version": "42.0"
+      }
+    }
   }
